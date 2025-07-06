@@ -285,6 +285,362 @@ habit-main-sec {
   object-fit: cover;
 }
 
+/* trining section styles */
+
+.trining-main-title {
+  margin-bottom: 50px;
+}
+
+.trining-sec-main,
+.bmi-main-sec {
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: start;
+  padding: 10px;
+}
+/* 
+.ex-main-items{
+ display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px;
+  padding: 10px;
+  grid-auto-rows: auto;
+
+}
+.ex-main-item{
+  position: relative;
+  align-self: start;
+
+}
+
+.ex-main-item2{
+  grid-column: span 2;
+}
+
+.ex-main-item4{
+  grid-column: span 2;
+}
+
+.ex-main-item img{
+ width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(6, 255, 210, 0.5); 
+  color: white;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.color-code2{
+background-color: rgba(255, 0, 0, 0.3);
+}
+
+.color-code3{
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+.color-code4{
+background-color:rgba(0, 0, 0, 0.5);
+}
+
+.color-code5{
+background-color: rgba(66, 255, 0, 0.3);
+
+.color-code6{
+background-color: rgba(0, 71, 255, 0.3);
+}
+
+
+ */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.grid-item {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+/* Spanning specific items */
+.grid-item:nth-child(2) {
+  grid-column: span 2;
+}
+
+.grid-item:nth-child(4) {
+  grid-column: span 2;
+}
+
+/* Overlay colors */
+.grid-item:nth-child(1) .overlay {
+  background-color: rgba(0, 128, 128, 0.5); /* teal */
+}
+
+.grid-item:nth-child(2) .overlay {
+  background-color: rgba(128, 0, 0, 0.5); /* maroon */
+}
+
+.grid-item:nth-child(3) .overlay {
+  background-color: rgba(0, 0, 0, 0.4); /* black */
+}
+
+.grid-item:nth-child(4) .overlay {
+  background-color: rgba(255, 165, 0, 0.5); /* orange */
+}
+
+.grid-item:nth-child(5) .overlay {
+  background-color: rgba(0, 255, 0, 0.3); /* green */
+}
+
+.grid-item:nth-child(6) .overlay {
+  background-color: rgba(0, 255, 255, 0.4); /* aqua */
+}
+
+/* bmi section */
+
+.bmi-main {
+  text-align: start;
+  margin-bottom: 80px;
+  margin-top: 80px;
+  margin-left: 100px;
+}
+
+.bmi-title {
+  font: bold;
+  font-size: 45px;
+  color: var(--secondary-color);
+}
+.bmi-des {
+  font: bold;
+  font-size: 18px;
+  color: var(--secondary-color);
+  opacity: 0.5;
+}
+
+/* table section */
+
+.table {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.table-main-sec {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.table-main {
+  font: bold;
+  color: var(--secondary-color);
+  font-size: 25px;
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+
+table {
+  width: 400px;
+  border-collapse: collapse;
+  margin: 0 auto;
+  color: #ccc;
+  font-size: 16px;
+}
+
+th,
+td {
+  border: 1px solid #444;
+  padding: 15px;
+  text-align: left;
+}
+
+th {
+  color: white;
+  font-weight: bold;
+}
+
+/* input calculator */
+.input-des {
+  font-size: 15px;
+  color: white;
+  font: bold;
+  opacity: 0.5s;
+}
+
+.form-main {
+  margin-top: 30px;
+}
+
+.input-title-main {
+  max-width: 80%;
+}
+
+.input-hight {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 10px 30px;
+  border: none;
+  margin: 5px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.selector {
+  width: 80%;
+}
+
+.cal-btn {
+  margin-top: 10px;
+}
+
+.table {
+  padding: 50px;
+  margin-bottom: 100px;
+}
+
+
+/* gallery section */
+
+/* Spanning specific items */
+.gallery-section{
+  max-width: 80%;
+  margin: 0 auto;
+
+}
+
+.grid-container2{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3 , 1fr);
+  background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.img-2{
+  grid-column: span 1 !important;
+}
+
+/* footer section */
+
+.footer-main{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-contant{
+  max-width: 80%;
+  margin: 0 auto;
+}
+.footer-contant{
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  place-items: center;
+  padding: 30px;
+
+}
+
+.fitness-title{
+  font-size: 60px;
+  font-style: italic;
+  font: bold;
+  color: var(--primary-color);
+}
+
+.fitness-des{
+  font-size: 18px;
+  color: var(--secondary-color);
+  opacity: 0.5;
+}
+
+
+.footer-title{
+  font: bold;
+  color: var(--secondary-color);
+  font-size: 30px;
+}
+
+.footer-des{
+  font: bold;
+  color: var(--secondary-color);
+  font-size: 15px;
+  opacity: 0.5;
+  
+}
+
+.footer-item{
+  flex-direction: column;
+  gap: 5px;
+}
+
+.copyright{
+  color: var(--secondary-color);
+  opacity: 0.5;
+  font-size: 15px;
+  text-align: center;
+
+}
+
+.bootom{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  gap: 20px;
+}
+
+hr{
+  width: 50%;
+  text-align: center;
+  color: var(--secondary-color);
+  opacity: 0.5;
+}
+
+
 /* responsiv for mobile device */
 
 @media screen and (max-width: 576px) {
@@ -366,5 +722,24 @@ habit-main-sec {
 
   .join-sec-main {
     max-width: 90%;
+  }
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-item {
+    height: 150px;
+  }
+
+  .grid-item:nth-child(2),
+  .grid-item:nth-child(4) {
+    grid-column: span 1;
+  }
+
+  .grid-item:nth-child(n + 5) {
+    display: none;
+  }
+
+  .table {
   }
 }
